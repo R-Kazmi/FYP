@@ -1,0 +1,128 @@
+#reviewCardContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+#reviewCardContainer hr {
+  width: 28rem;
+  margin: 0.8rem 0 0.3rem 0;
+}
+
+#reviewCardContainer #reviewCardTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.5rem 0 0 0;
+}
+
+#reviewCardContainer #reviewCardTop img {
+  width: 5.06rem;
+  height: 7.4rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 1px solid #14181c;
+  border-radius: 4px;
+}
+
+#reviewCardContainer #reviewCardTop #reviewCardTopDetails {
+  margin-left: 1rem;
+}
+
+#reviewCardContainer #reviewCardTop #reviewCardTopDetails #reviewCardTopDetailsAccount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+#reviewCardContainer #reviewCardTop #reviewCardTopDetails #reviewCardTopDetailsAccount img {
+  width: 1.5rem;
+  height: 1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 1px solid #14181c;
+  border-radius: 50%;
+}
+
+#reviewCardContainer #reviewCardTop #reviewCardTopDetails #reviewCardTopDetailsAccount a {
+  margin-left: 0.3rem;
+  color: #AABBCC;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#reviewCardContainer #reviewCardTop #reviewCardTopDetails a {
+  color: #FFFFFF;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+#reviewCardContainer #reviewCardTop #reviewCardTopDetails #reviewCardTopDetailsReview {
+  margin-top: 0.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#reviewCardContainer #reviewCardTop #reviewCardTopDetails #reviewCardTopDetailsReview i {
+  margin-right: 0.3rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#reviewCardContainer #reviewCardTop #reviewCardTopDetails #reviewCardTopDetailsReview i span {
+  color: #667788;
+  font-size: small;
+}
+
+#reviewCardContainer #reviewCardReview {
+  margin-top: 1.5rem;
+}
+
+#reviewCardContainer #reviewCardReview p {
+  color: #99AABB;
+  font-weight: bold;
+}
+
+#reviewCardContainer #reviewCardReviewLikes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.3rem;
+}
+
+#reviewCardContainer #reviewCardReviewLikes a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #778899;
+  font-size: 0.92rem;
+  font-weight: bold;
+  margin-right: 0.7rem;
+}
+
+#reviewCardContainer #reviewCardReviewLikes a span {
+  margin-right: 0.3rem;
+}

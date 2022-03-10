@@ -1,0 +1,121 @@
+#PJIeo {
+    background-color: #14181C;
+
+    hr {
+        color : #14181C;
+        height: 5px;
+    }
+
+    #backdrop-div {
+
+
+        img {
+            height            : 30rem;
+            width             : 100%;
+            mask-image        : url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve"><style type="text/css">.blur{filter:url(%23softedge);}</style><filter id="softedge"><feGaussianBlur stdDeviation="3.5"></feGaussianBlur></filter><g class="blur"><rect x="10" y="10" width="80" height="80"/></g></svg>');
+            mask-size         : cover;
+            -webkit-mask-image: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve"><style type="text/css">.blur{filter:url(%23softedge);}</style><filter id="softedge"><feGaussianBlur stdDeviation="3.5"></feGaussianBlur></filter><g class="blur"><rect x="10" y="10" width="80" height="80"/></g></svg>');
+            -webkit-mask-size : cover;
+        }
+    }
+
+    #movie-detail-container {
+
+        #movie-detail-container-flex1 {
+
+            #movie-detail-container-flex1-div1 {
+
+                img {
+                    height: 21rem;
+                    border: 0.5px solid rgb(53, 51, 49);
+
+                }
+            }
+
+            #movie-detail-container-flex1-div2 {
+
+                h3,
+                p {
+                    color      : #DDEEFF;
+                    margin-left: 0.5rem;
+
+                }
+
+                #movie-detail-container-flex1-div2-tagline {
+                    p {
+                        color: #99AABB;
+                    }
+                }
+
+                #movie-detail-container-flex1-div2-overview {
+                    width: 24rem;
+
+                    p {
+                        color: #9ab;
+                    }
+                }
+
+                #movie-detail-container-flex1-div2-cast {
+                    width: 24rem;
+
+                    hr {
+                        color : #9ab;
+                        height: 0.5px;
+                    }
+
+                    a {
+                        background-color: #283038;
+
+                        span {
+                            color: #9ab;
+                        }
+                    }
+
+                    #movie-detail-container-flex1-div2-cast-div1 {
+                        p {
+                            margin-left     : 0;
+                            background-color: #14181C;
+                            color           : #00E054;
+                            margin-right    : 0.8rem;
+                        }
+                    }
+
+                    #cast-details {
+                        p {
+                            margin-left: 0;
+                            color      : #9ab;
+                        }
+
+
+                    }
+
+                }
+            }
+
+            #movie-detail-container-flex1-div3 {
+                background-color: #445566;
+                color           : #BBCCDD;
+
+                hr {
+                    height: 2px;
+                }
+
+                a {
+                    color: #BBCCDD;
+                }
+            }
+        }
+
+        #movie-review{
+            width: 40rem;
+            
+            hr{
+                color : #9ab;
+                height: 0.5px;
+            }
+            p{
+                color: #9ab;
+            }
+        }
+    }
+}

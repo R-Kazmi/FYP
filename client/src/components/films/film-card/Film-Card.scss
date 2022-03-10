@@ -1,0 +1,58 @@
+#JXx6G {
+    height: 250px;
+    width: 145px;
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    #card-poster {
+        
+        img {
+            border       : 0.1px solid #393E46;
+            width        : 145px;
+            height       : 250px;
+            border-radius: 3px 3px 7px 7px;
+            object-fit: cover;
+
+        }
+
+
+    }
+
+    #card-profile {
+        display: flex;
+        width: 143px;
+        height: 29px;
+        background-color: rgb(67, 75, 82);
+        align-items: center;
+        padding-left: 0.5rem;
+
+        margin-left: 1px;
+
+        position: relative;
+        top: -30px;
+
+        border-radius: 0 0 5px 5px;
+
+        
+
+        img {
+            width : 1.3rem;
+            height: 1.3rem;
+            border-radius: 50%;
+            object-fit: cover;
+            border: none;
+        }
+
+        h6{
+            color: #abc;
+            font-size: x-small;
+            font-weight: bold;
+            padding-top: 0.4rem;
+            padding-left: 0.3rem;
+            letter-spacing: 1px;
+        }
+    }
+
+}

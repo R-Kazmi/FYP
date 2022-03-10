@@ -1,0 +1,100 @@
+#reviewCardContainer {
+    display       : flex;
+    flex-direction: column;
+    margin-bottom : 0.5rem;
+
+    hr {
+        width : 28rem;
+        margin: 0.8rem 0 0.3rem 0;
+    }
+
+    #reviewCardTop {
+        display    : flex;
+        align-items: center;
+        margin     : 0.5rem 0 0 0;
+
+        img {
+            width        : 5.06rem;
+            height       : 7.4rem;
+            object-fit   : cover;
+            border       : 1px solid #14181c;
+            border-radius: 4px;
+        }
+
+        #reviewCardTopDetails {
+            margin-left: 1rem;
+
+
+            #reviewCardTopDetailsAccount {
+                display      : flex;
+                align-items  : center;
+                margin-bottom: 0.5rem;
+
+                img {
+                    width        : 1.5rem;
+                    height       : 1.5rem;
+                    object-fit   : cover;
+                    border       : 1px solid #14181c;
+                    border-radius: 50%;
+                }
+
+                a {
+                    margin-left: 0.3rem;
+                    color      : #AABBCC;
+                    font-weight: bold;
+                    font-size  : 13px;
+                }
+            }
+
+            a {
+                color      : #FFFFFF;
+                font-size  : 28px;
+                font-weight: bolder;
+            }
+
+            #reviewCardTopDetailsReview {
+                margin-top: 0.3rem;
+                display: flex;
+                align-items: center;
+
+                i {
+                    margin-right: 0.3rem;
+                    display: inline-flex;
+                    align-items: center;
+                    span {
+                        color    : #667788;
+                        font-size: small;
+                    }
+                }
+            }
+        }
+
+    }
+
+    #reviewCardReview {
+        margin-top: 1.5rem;
+
+        p {
+            color      : #99AABB;
+            font-weight: bold;
+        }
+    }
+
+    #reviewCardReviewLikes {
+        display: flex;
+        margin-top: 0.3rem;
+
+        a {
+            display: inline-flex;
+            align-items: center;
+            color       : #778899;
+            font-size   : 0.92rem;
+            font-weight : bold;
+            margin-right: 0.7rem;
+
+            span{
+                margin-right: 0.3rem;
+            }
+        }
+    }
+}

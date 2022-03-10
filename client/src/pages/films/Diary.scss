@@ -1,0 +1,29 @@
+#M3K8s {
+    background: #14181c url("https://s.ltrbxd.com/static/img/content-bg.0d9a0f0f.png") repeat-x;
+    width     : 100%;
+    overflow  : hidden;
+
+    table {
+        thead {
+            tr {
+                background    : #14181c;
+                border-bottom : 2px solid #2c3440;
+                border-top    : 3px solid #2c3440;
+                color         : #456;
+                font-size     : 11px;
+                padding       : 7px 2px 7px 2px;
+                text-transform: uppercase;
+            }
+        }
+
+        tbody{
+            tr{
+                color: #445566;
+
+                p{
+                    color: white;
+                }
+            }
+        }
+    }
+}

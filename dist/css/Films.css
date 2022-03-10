@@ -1,0 +1,214 @@
+#MpoCG {
+  background: #14181c url("https://s.ltrbxd.com/static/img/content-bg.0d9a0f0f.png") repeat-x;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+#MpoCG #top-text {
+  margin-top: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#MpoCG #top-text h4 {
+  color: #abc;
+}
+
+#MpoCG #new-from-friends {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+#MpoCG #new-from-friends hr {
+  color: #abc;
+  margin: 0;
+  width: 59rem;
+}
+
+#MpoCG #new-from-friends #list-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2rem;
+  width: 59rem;
+}
+
+#MpoCG #new-from-friends #list-title h6 {
+  color: #abc;
+}
+
+#MpoCG #new-from-friends #film-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 59rem;
+  height: 250px;
+  margin-top: 0.5rem;
+}
+
+#mTHIg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+#mTHIg hr {
+  color: #abc;
+  margin: 0;
+  width: 59rem;
+}
+
+#mTHIg #list-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2rem;
+  width: 59rem;
+}
+
+#mTHIg #list-title h6 {
+  color: #abc;
+}
+
+#mTHIg #grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  background-color: #202830;
+  width: 59rem;
+  height: 178px;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+}
+
+#mTHIg #grid #mTHIg-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#mTHIg #grid #mTHIg-img img {
+  border-radius: 4px 0 0 4px;
+  height: 174px;
+  width: 310px;
+}
+
+#mTHIg #grid #span-col-2 {
+  grid-column: span 2 / auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1.5em 2em 0 2em;
+}
+
+#mTHIg #grid #span-col-2 a {
+  color: #FFFFFF;
+  font-size: 22px;
+  font-family: "Graphik-Bold", "sans-serif";
+  letter-spacing: 0;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#mTHIg #grid #span-col-2 a:hover {
+  color: #40BCf4;
+}
+
+#mTHIg #grid #span-col-2 p {
+  color: #99AABB;
+  font-size: 15px;
+  font-family: "TiemposTextWeb-Regular", "sans-serif";
+  letter-spacing: 0;
+}
+
+#mTHIg #grid #span-col-2 p a {
+  cursor: pointer;
+  font-size: 0.92rem;
+  font-weight: 400;
+  font-family: "Graphik-semibold-Web", "sans-serif";
+  color: #DDEEFF;
+}
+
+#Wbwml {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+#Wbwml hr {
+  color: #abc;
+  margin: 0;
+  width: 59rem;
+}
+
+#Wbwml #list-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2rem;
+  width: 59rem;
+}
+
+#Wbwml #list-title h6 {
+  color: #abc;
+}
+
+#Wbwml #PYji {
+  width: 59rem;
+  margin-top: 0.8rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}

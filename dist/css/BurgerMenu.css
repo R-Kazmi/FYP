@@ -1,0 +1,110 @@
+#fP18B {
+  position: fixed;
+  top: 10%;
+  right: 3%;
+  background-color: black;
+  height: 3.5rem;
+  width: 3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#yoUWd {
+  display: none;
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #222831;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#yoUWd ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#yoUWd ul li {
+  margin: 15px 0;
+}
+
+#yoUWd ul li a {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 5px 30px;
+  color: #EEEEEE;
+  background: #222831;
+  border-radius: 50px;
+  position: relative;
+  line-height: 50px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#yoUWd ul li a::after {
+  position: absolute;
+  content: "";
+  background: #EEEEEE;
+  width: 104%;
+  height: 110%;
+  left: -2%;
+  top: -5%;
+  /* if the font is 'Oswald'*/
+  border-radius: 50px;
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  z-index: -1;
+  -webkit-animation: rotate 1.5s linear infinite;
+          animation: rotate 1.5s linear infinite;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+#yoUWd ul li a:hover::after {
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+}
+
+#yoUWd ul li a:hover {
+  color: #F9ED69;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+  }
+}

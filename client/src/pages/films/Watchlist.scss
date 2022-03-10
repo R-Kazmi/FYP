@@ -1,0 +1,35 @@
+#ZDmFT {
+    background: #14181c url("https://s.ltrbxd.com/static/img/content-bg.0d9a0f0f.png") repeat-x;
+    width     : 100%;
+    overflow  : hidden;
+
+    #ZDmFT-div1 {
+        width: 37rem;
+    }
+
+    #ZDmFT-div2 {
+
+        section {
+            color: #9ab;
+            background-color: #445566;
+            
+            hr{
+                width: 100%;
+                height: 2px;
+                color: #14181c;
+            }
+        }
+
+        div{
+            hr{
+                height: 3px;
+            }
+
+            input{
+                &::placeholder{
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}
