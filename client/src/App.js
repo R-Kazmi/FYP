@@ -13,6 +13,7 @@ import Diary from './pages/films/Diary';
 import Watchlist from './pages/films/Watchlist';
 import Journal from './pages/films/Journal';
 import MainIndex from './pages/music/MainIndex';
+import SearchFilm from './pages/films/SearchFilm';
 // import SearchMusic from './pages/music/SearchMusic';
 
 function App() {
@@ -25,21 +26,25 @@ function App() {
 
       <div >
         <Routes>
+
           <Route path="/*" element={<Home />} />
 
           <Route path="/films" element={<Films />} />
-          
-          <Route path="/login" element={<Login />} />
+          <Route path="/searchFilms" element={<SearchFilm />} />
           <Route path="/movie-detail/:movieId" element={<MovieDetail />} />
           <Route path="/tv-detail/:tvId" element={<TvDetail />} />
-          <Route path="/diary/:userId" element={<Diary />} />
           <Route path="/watchlist/:userId" element={<Watchlist />} />
-          <Route path="/journal" element={<Journal />} />
-          <Route path="/music" element={<MainIndex />} />
+          <Route path="/diary/:userId" element={<Diary />} />
 
+          <Route path="/login" element={<Login />} />
+          
+          <Route path="/journal" element={<Journal />} />
+          
+          <Route path="/music" element={<MainIndex />} />
+          {/* <Route path="/searchMusic" element={<SearchMusic />} /> */}
 
           <Route path="/main" element={<Main />} />
-          {/* <Route path="/searchMusic" element={<SearchMusic />} /> */}
+          
         </Routes>
       </div>
     </BrowserRouter>
