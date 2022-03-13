@@ -2,6 +2,7 @@
 
 This is my final year project that i did for Bachelor in Software Engineering.
 
+
 Tech Used
 
 React,
@@ -14,10 +15,12 @@ MongoDB/Mongoose,
 Socket.io,
 
 
+
 Api's Used
 
 TMDB,
 Spotify
+
 
 
 Libraries used
