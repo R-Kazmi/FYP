@@ -5,37 +5,37 @@ This is my final year project that i did for Bachelor in Software Engineering.
 
 Tech Used
 
-React,
-Sanity.io,
-Node/Express,
-Tailwind CSS,
-Styled Components,
-Bootstrap/React-Bootstrap,
-MongoDB/Mongoose,
-Socket.io,
+React <br/>
+Sanity.io <br/>
+Node/Express <br/>
+Tailwind CSS <br/>
+Styled Components <br/>
+Bootstrap/React-Bootstrap <br/>
+MongoDB/Mongoose <br/>
+Socket.io <br/>
 
 
 
 Api's Used
 
-TMDB,
+TMDB <br/>
 Spotify
 
 
 
 Libraries used
 
-React Router,
-React Icons,
-Node Sass,
-React Masonry CSS,
-React Loader Spinner,
-React Google Login,
-Axios,
-Cors,
-UUID,
-React Toastify,
-React Alice Carousel,
-Emoji Picker React,
+React Router <br/>
+React Icons <br/>
+Node Sass <br/>
+React Masonry CSS <br/>
+React Loader Spinner <br/>
+React Google Login <br/>
+Axios <br/>
+Cors <br/>
+UUID <br/>
+React Toastify <br/>
+React Alice Carousel <br/>
+Emoji Picker React <br/>
 Lyrics Finder
 
