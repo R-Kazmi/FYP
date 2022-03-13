@@ -2,7 +2,7 @@
 
 This is my final year project that i did for Bachelor in Software Engineering.
 
-
+<br/>
 Tech Used
 
 React <br/>
