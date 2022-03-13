@@ -23,7 +23,7 @@ Api's Used <br/>
 TMDB <br/>
 Spotify
 
-
+<br/>
 <br/>
 Libraries used <br/>
 
