@@ -4,7 +4,7 @@ This is my final year project that i did for Bachelor in Software Engineering.
 
 <br/>
 Tech Used
-
+<br/>
 React <br/>
 Sanity.io <br/>
 Node/Express <br/>
@@ -17,14 +17,14 @@ Socket.io <br/>
 
 <br/>
 Api's Used
-
+<br/>
 TMDB <br/>
 Spotify
 
 
 <br/>
 Libraries used
-
+<br/>
 React Router <br/>
 React Icons <br/>
 Node Sass <br/>
