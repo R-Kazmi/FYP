@@ -15,14 +15,14 @@ Bootstrap/React-Bootstrap <br/>
 MongoDB/Mongoose <br/>
 Socket.io <br/>
 
-
+<br/>
 <br/>
 Api's Used <br/>
 
 <br/>
 TMDB <br/>
 Spotify
-
+<br/>
 <br/>
 <br/>
 Libraries used <br/>
