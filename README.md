@@ -15,14 +15,14 @@ MongoDB/Mongoose <br/>
 Socket.io <br/>
 
 
-
+<br/>
 Api's Used
 
 TMDB <br/>
 Spotify
 
 
-
+<br/>
 Libraries used
 
 React Router <br/>
