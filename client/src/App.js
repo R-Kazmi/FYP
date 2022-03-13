@@ -15,6 +15,10 @@ import Journal from './pages/films/Journal';
 import MainIndex from './pages/music/MainIndex';
 import SearchFilm from './pages/films/SearchFilm';
 // import SearchMusic from './pages/music/SearchMusic';
+import RegisterChat from './pages/chat/RegisterChat'
+import LoginChat from './pages/chat/LoginChat'
+import Chat from './pages/chat/Chat'
+import SetAvatar from './pages/chat/SetAvatar'
 
 function App() {
   return (
@@ -42,6 +46,11 @@ function App() {
           
           <Route path="/music" element={<MainIndex />} />
           {/* <Route path="/searchMusic" element={<SearchMusic />} /> */}
+
+          <Route path='/chatRegister' element={<RegisterChat />} />
+          <Route path='/chatLogin' element={<LoginChat />} />
+          <Route path='/setAvatar' element={<SetAvatar />} />
+          <Route path='/chat' element={<Chat />} />
 
           <Route path="/main" element={<Main />} />
           
