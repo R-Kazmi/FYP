@@ -19,6 +19,7 @@ import RegisterChat from './pages/chat/RegisterChat'
 import LoginChat from './pages/chat/LoginChat'
 import Chat from './pages/chat/Chat'
 import SetAvatar from './pages/chat/SetAvatar'
+import WatchPartyRoutes from './pages/watchParty/WatchPartyRoutes';
 
 function App() {
   return (
@@ -53,6 +54,8 @@ function App() {
           <Route path='/chat' element={<Chat />} />
 
           <Route path="/main" element={<Main />} />
+          
+          <Route path="/watchParty/*" element={<WatchPartyRoutes />} />
           
         </Routes>
       </div>

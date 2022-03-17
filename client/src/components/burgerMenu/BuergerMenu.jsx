@@ -40,7 +40,8 @@ const BuergerMenu = ({ pageLinks }) => {
 
                     <li><a href="/journal">Journal</a></li>
                     <li><a href="/login">Login</a></li>
-                    <li><a href="/login">Signup</a></li>
+                    <li><a href="/chatRegister">Signup</a></li>
+                    <li><a href="/chat">Chat</a></li>
                 </ul>
             </div>
         </div>

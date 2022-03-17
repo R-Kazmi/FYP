@@ -1,0 +1,11 @@
+#Chat {
+  height: 100%;
+
+  .chat-view {
+    height: 100%;
+
+    .chat-messages {
+      overflow-y: scroll;
+    }
+  }
+}
