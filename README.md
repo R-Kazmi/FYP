@@ -25,7 +25,7 @@ Spotify
 <br/>
 <br/>
 <br/>
-Libraries used <br/>
+Packages used <br/>
 
 <br/>
 React Router <br/>
