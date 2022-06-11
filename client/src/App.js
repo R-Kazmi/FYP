@@ -19,46 +19,48 @@ import RegisterChat from './pages/chat/RegisterChat'
 import LoginChat from './pages/chat/LoginChat'
 import Chat from './pages/chat/Chat'
 import SetAvatar from './pages/chat/SetAvatar'
-import WatchPartyRoutes from './pages/watchParty/WatchPartyRoutes';
+import PageNotFound from './pages/PageNotFound';
 
 function App() {
   return (
     <BrowserRouter>
 
-      <div>
-        <Navbar />
-      </div>
+      <Navbar />
 
-      <div >
-        <Routes>
 
-          <Route path="/*" element={<Home />} />
+      <Routes>
 
-          <Route path="/films" element={<Films />} />
-          <Route path="/searchFilms" element={<SearchFilm />} />
-          <Route path="/movie-detail/:movieId" element={<MovieDetail />} />
-          <Route path="/tv-detail/:tvId" element={<TvDetail />} />
-          <Route path="/watchlist/:userId" element={<Watchlist />} />
-          <Route path="/diary/:userId" element={<Diary />} />
+        
 
-          <Route path="/login" element={<Login />} />
-          
-          <Route path="/journal" element={<Journal />} />
-          
-          <Route path="/music" element={<MainIndex />} />
-          {/* <Route path="/searchMusic" element={<SearchMusic />} /> */}
+        <Route path="/*" element={<Home />} />
 
-          <Route path='/chatRegister' element={<RegisterChat />} />
-          <Route path='/chatLogin' element={<LoginChat />} />
-          <Route path='/setAvatar' element={<SetAvatar />} />
-          <Route path='/chat' element={<Chat />} />
+        <Route path="/films" element={<Films />} />
+        <Route path="/searchFilms" element={<SearchFilm />} />
+        <Route path="/movie-detail/:movieId" element={<MovieDetail />} />
+        <Route path="/tv-detail/:tvId" element={<TvDetail />} />
+        <Route path="/watchlist/:userId" element={<Watchlist />} />
+        <Route path="/diary/:userId" element={<Diary />} />
 
-          <Route path="/main" element={<Main />} />
-          
-          <Route path="/watchParty/*" element={<WatchPartyRoutes />} />
-          
-        </Routes>
-      </div>
+        <Route path="/login" element={<Login />} />
+
+        <Route path="/journal" element={<Journal />} />
+
+        <Route path="/music" element={<MainIndex />} />
+        {/* <Route path="/searchMusic" element={<SearchMusic />} /> */}
+
+        <Route path='/chatRegister' element={<RegisterChat />} />
+        <Route path='/chatLogin' element={<LoginChat />} />
+        <Route path='/setAvatar' element={<SetAvatar />} />
+        <Route path='/chat' element={<Chat />} />
+
+        <Route path="/main" element={<Main />} />
+
+
+        <Route path='/pnf' element={<PageNotFound />} />
+
+
+      </Routes>
+
     </BrowserRouter>
   );
 }

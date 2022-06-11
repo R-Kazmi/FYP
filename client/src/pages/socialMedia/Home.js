@@ -10,6 +10,8 @@ import { client } from '../../client';
 import Pins from './Pins';
 import logo from '../../assets/logo.png';
 
+import './Home.scss';
+
 const Home = () => {
   const [toggleSidebar, setToggleSidebar] = useState(false);
   const [user, setUser] = useState();
@@ -53,7 +55,7 @@ const Home = () => {
           </div>
         )}
       </div>
-      <div className="pb-2 flex-1 h-screen overflow-y-scroll" ref={scrollRef}>
+      <div className="pb-2 flex-1 h-screen overflow-y-scroll" ref={scrollRef} id='SXbv5'>
         <Routes>
           <Route path="/user-profile/:userId" element={<UserProfile />} />
           <Route path="/*" element={<Pins user={user && user} />} />
