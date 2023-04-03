@@ -1,7 +1,7 @@
 # Final Year Project
 
 This is my final year project that i did for Bachelor in Software Engineering. The purpose of this project is to create a unique system for online-streaming platforms users, so that they can enjoy all from one system with some new, dedicated easy to use features. It will be used to enjoy different categories of
-entertainment in one place. This system will contain allthe features of digital entertainment. People
+entertainment in one place. This system will contain all the features of digital entertainment. People
 can watch different events together, organize watch parties, can keep track of what's going on in
 the entertainment world, create and share playlists and watchlists, review their favorite films and
 series, make new friends based on similar interests, talk about their favorite shows and so on. It will
